@@ -1,0 +1,8 @@
+# ignore all files in the directory
+build/
+# ignore all .txt files in the dir
+build/**/*.txt
+# do track the ignore file
+!track.txt
+#ignore the dir files,but not include the sub dir
+build/*.txt 
